@@ -204,7 +204,10 @@ a {
 .hamburger {
     display: none;
 }
-
+.fa-xmark{
+    font-size: 2rem;
+    color: black;
+}
 @media screen and (max-width:1240px) {
     h1 {
         font-size: 16rem;
@@ -221,10 +224,10 @@ a {
         width: 32rem;
     }
     .nav-btn {
-        padding: .6rem 1rem;
+        padding: .6rem .9rem;
     }
     .navlist{
-        gap: 1rem;
+        gap: .8rem;
     }
 }
 
