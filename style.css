@@ -81,7 +81,7 @@ main::after {
 
 h1 {
     color: var(--white-clr);
-    font-size: 20rem;
+    font-size: 18rem;
     font-family: "Corinthia", cursive;
     font-weight: 400;
     position: relative;
@@ -270,12 +270,13 @@ a {
     }
 
     h1 {
-        font-size: 5rem;
+        font-size: 4.6rem;
     }
 
     h1::after {
         font-size: .95rem;
-        bottom: -80%;
+        bottom: -90%;
+        right: -5%;
     }
 
     .hero-section {
@@ -284,5 +285,14 @@ a {
 
     p {
         font-size: .9rem;
+    }
+}
+
+@media screen and  (max-width:329px) {
+    h1{
+        font-size: 3.4rem;
+    }
+    h1::after{
+        bottom: -8rem;
     }
 }
